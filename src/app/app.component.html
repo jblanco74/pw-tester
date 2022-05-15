@@ -1,8 +1,8 @@
 <h1>Password Generator</h1>
 
 <div>
-  <label for="">Enter length</label>
-  <input type="number">
+  <label>Enter length</label>
+  <input #passLengthEvent (input)="onChangeLength(passLengthEvent.value)" >
 </div>
 
 <div>
